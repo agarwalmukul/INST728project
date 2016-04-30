@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+#r1{
+	height: 20%;
+	background-color:#F8F4F4;
+	border:solid 2px black;
+}
+
+#r2{
+	height: 60%;
+	border:solid 2px black;
+}
+
+#r3{
+	height: 20%;
+}
+
+#back{
+	float:left;
+	background-color:#5F73E7;
+	border:solid 2px black;
+}
+
+#forward{
+	float:right;
+	background-color:#5F73E7;
+	border:solid 2px black;
+
+}
+
+#container
+{
+	height:700px;
+	padding-top: 100px;
+}
+
+#inst{
+	height:100%;
+
+}
+
+#logo{
+	height:100%;
+	background-color:#FF0004;
+	border-left:solid 2px black;
+}
+
+#steps{
+	width: auto;
+	margin-left: 7em;
+	margin-top: 3em;
+}
+
+#option{
+	display: inline-block;
+	width: 400px;
+	margin-left: 100px;
+	margin-top: 10px;
+	border:solid 2px black;
+	align-self: center;
+	border-radius: 10px;
+	padding: 20px 40px 20px 40px;
+}
