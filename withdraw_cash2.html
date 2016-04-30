@@ -23,7 +23,7 @@
 
 <!-- Instrctions row -->
 <div id="r1">
-<div class="col-sm-10" id="inst"><h1>Select the account that you want to withdraw the money from.</h1></div>
+<div class="col-sm-10" id="inst"><h1>Please enter the amount that you want to withdraw.</h1></div>
 <div class="col-sm-2" id="logo"></div>
 </div>
 
@@ -31,17 +31,20 @@
 <div id="r2">
 <h1>
   <div style="width: 1200px;margin-top:40px;">
-    <span class="label label-primary" id="steps">Step 1</span>
-    <span class="label label-default" id="steps">Step 2</span>
+    <span class="label label-success" id="steps">Step 1</span>
+    <span class="label label-primary" id="steps">Step 2</span>
     <span class="label label-default" id="steps">Step 3</span>
   </div>
 </h1>
 <br>
 <h1>
-  <div style="width:1200px;">
-    <div id="option" class="btn1">Press 1 for current account: $5078.00</div>
-    <div id="option" class="btn1">Press 2 for savings account: $3192.65</div>
+<form class="form-inline">
+  <label style="margin-right:20px;" for="rg-from">Amount </label>
+  <div class="form-group">
+    <input type="text" id="rg-from" name="rg-from" value="" class="form-control">
   </div>
+  <!-- rest of form -->
+</form>
 </h1>
 </div>
 

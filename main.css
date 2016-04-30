@@ -61,3 +61,12 @@
 	border-radius: 10px;
 	padding: 20px 40px 20px 40px;
 }
+
+.form-inline{
+	margin-left: 380px;
+	padding-top: 20px;
+}
+
+.clicked{
+	background-color: red;
+}
