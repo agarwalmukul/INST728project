@@ -4,6 +4,9 @@
 	height: 20%;
 	background-color:#F8F4F4;
 	border:solid 2px black;
+	text-align: center;
+
+	vertical-align: middle;
 }
 
 #r2{
@@ -19,13 +22,14 @@
 	float:left;
 	background-color:#5F73E7;
 	border:solid 2px black;
+	text-align: center;
 }
 
 #forward{
 	float:right;
 	background-color:#5F73E7;
 	border:solid 2px black;
-
+	text-align: center;
 }
 
 #container
@@ -79,6 +83,5 @@
 	text-align: center;
 }
 a{
-
 	color: black;
 }
