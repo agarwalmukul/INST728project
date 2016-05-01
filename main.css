@@ -1,5 +1,9 @@
 @charset "utf-8";
 /* CSS Document */
+body{
+font-variant:small-caps;
+background-color:#000000;
+}
 #r1{
 	height: 20%;
 	background-color:#F8F4F4;
@@ -34,7 +38,9 @@
 #container
 {
 	height:700px;
-	padding-top: 100px;
+	padding-top: 20px;
+	margin-top:25px;
+	background-color:#FFFFFF;	
 }
 
 #inst{
@@ -83,4 +89,11 @@
 }
 a{
 	color: black;
+}
+
+#cambox{
+	background-color:#DD7476;
+	width:640px;
+	height:200px;
+    margin-left: 9em;
 }
