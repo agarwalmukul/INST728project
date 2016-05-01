@@ -4,8 +4,16 @@ $(function(){
 	
 $(".btn1").click(function() {
   // Instead of directly editing CSS, toggle a class
-  $(this).toggleClass("clicked");
+  $(this).addClass("clicked");
+  $(".btn2").removeClass("clicked");  
 });
+
+$(".btn2").click(function() {
+  // Instead of directly editing CSS, toggle a class
+  $(this).addClass("clicked");
+  $(".btn1").removeClass("clicked");  
+});
+
 
 // 
 var video = document.querySelector("#videoElement");

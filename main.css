@@ -8,7 +8,6 @@ background-color:#000000;
 	height: 20%;
 	background-color:#F8F4F4;
 	border:solid 2px black;
-
 	vertical-align: middle;
 }
 
@@ -26,6 +25,8 @@ background-color:#000000;
 	background-color:#5F73E7;
 	border:solid 2px black;
 	text-align: center;
+	color:#FFFFFF;	
+	height:100%;	
 }
 
 #forward{
@@ -33,6 +34,8 @@ background-color:#000000;
 	background-color:#5F73E7;
 	border:solid 2px black;
 	text-align: center;
+	color:#FFFFFF;
+	height:100%;
 }
 
 #container
@@ -45,7 +48,6 @@ background-color:#000000;
 
 #inst{
 	height:100%;
-
 }
 
 #logo{
@@ -56,7 +58,7 @@ background-color:#000000;
 
 #steps{
 	width: auto;
-	margin-left: 5em;
+	margin-left: 2em;
 	margin-top: 3em;
 }
 
@@ -85,6 +87,7 @@ background-color:#000000;
 
 .clicked{
 	background-color: red;
+	color:white;
 }
 
 .display_card{
@@ -104,7 +107,7 @@ a{
 	height:200px;	
     margin-left: 9em;
 }
-<<<<<<< HEAD
+
 canvas{
     margin-left: -640px;
 	width:640px;
@@ -133,5 +136,14 @@ margin-top: 31px;
 	border:4px solid black;
  	
 }
-=======
->>>>>>> origin/master
+
+#rg-from{
+height: 55px;
+padding: 6px 12px;
+font-size: 29px;
+font-style:oblique;
+}
+
+.green{
+color:#069F09;
+}
