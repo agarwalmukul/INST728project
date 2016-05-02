@@ -1,6 +1,7 @@
 // JavaScript Document
 
 $(function(){
+
 	
 $(".btn1").click(function() {
   // Instead of directly editing CSS, toggle a class
@@ -81,7 +82,17 @@ var c=document.getElementById('load'),
   }, 100);
 
 	setInterval(function(){
-		window.location.href = "./deposit_cheque2.html";},5000);
+		if(document.title === 'TV Bank - license')
+		{
+			window.location.href = "./card_show.html";
+		}
+		else if(document.title === 'TV Bank - card')
+		{
+			window.location.href = "./info_confirm.html"
+		}
+		else
+		{
+		window.location.href = "./deposit_cheque2.html";}},3000);
   
 });
 
