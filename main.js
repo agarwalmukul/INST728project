@@ -92,7 +92,7 @@ var c=document.getElementById('load'),
 		}
 		else
 		{
-		window.location.href = "./deposit_cheque2.html";}},3000);
+		window.location.href = "./deposit_cheque3.html";}},2500);
   
 });
 
