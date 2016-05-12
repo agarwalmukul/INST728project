@@ -88,7 +88,15 @@ var c=document.getElementById('load'),
 		}
 		else if(document.title === 'TV Bank - card')
 		{
-			window.location.href = "./info_confirm.html"
+			window.location.href = "./info_confirm.html";
+		}
+		else if(document.title === 'TV Bank - D4')
+		{
+			window.location.href = "./main_menu.html";
+		}
+		else if(document.title === 'TV Bank - W5')
+		{
+			window.location.href = "./main_menu.html";			
 		}
 		else
 		{
